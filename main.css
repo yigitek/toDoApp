@@ -1,0 +1,18 @@
+.item-description{
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.item-completed:checked + .item-description {
+    background: #615959;
+    text-decoration: line-through;
+}
+
+#add{
+    padding: 8px 14px;
+    font-weight: bold;
+    color: rgb(41, 1, 1);
+    background: rgb(11, 219, 219);
+    cursor: pointer;
+}
